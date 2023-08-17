@@ -759,3 +759,52 @@ img {
 }
 
 /* MODAL finish */
+
+/* footer form */
+.footer-form-box {
+    display: flex;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-form-text {
+    color: var(--white, #FFF);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 24px;
+
+    letter-spacing: 0.32px;
+}
+
+.footer-form-button {
+
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    background-color: var(--iris);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-icon {
+    fill: var(--cloud);
+}
+
+.form-input {
+    width: 264px;
+    height: 40px;
+}
