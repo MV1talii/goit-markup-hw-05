@@ -761,6 +761,11 @@ img {
 /* MODAL finish */
 
 /* footer form */
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-form-box {
     display: flex;
     margin-right: auto;
@@ -778,9 +783,13 @@ img {
     line-height: 24px;
 
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .footer-form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-family: "Roboto", sans-serif;
     color: var(--white);
@@ -802,6 +811,7 @@ img {
 
 .footer-form-icon {
     fill: var(--cloud);
+    margin-left: 16px;
 }
 
 .form-input {
