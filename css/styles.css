@@ -378,7 +378,6 @@ img {
     padding: 100px 0;
     margin-top: 120px;
 
-
 }
 
 .footer-text {
@@ -763,14 +762,16 @@ img {
 
 /* footer form */
 
-.footer-form-box {}
+.footer-form-box {
+    margin-left: auto;
+}
 
 .footer-form-box-text {
     color: var(--white);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1, 5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 
@@ -779,6 +780,7 @@ img {
 .footer-form {
     display: flex;
     gap: 24px;
+
 }
 
 .form-label {}
@@ -797,6 +799,10 @@ img {
     outline: transparent;
     border: 1px solid var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+
+
+
 }
 
 .form-input::placeholder {
