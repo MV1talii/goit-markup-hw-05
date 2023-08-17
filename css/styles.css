@@ -378,6 +378,7 @@ img {
     padding: 100px 0;
     margin-top: 120px;
 
+
 }
 
 .footer-text {
@@ -761,60 +762,77 @@ img {
 /* MODAL finish */
 
 /* footer form */
+
+.footer-form-box {}
+
+.footer-form-box-text {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1, 5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+
+}
+
 .footer-form {
     display: flex;
     gap: 24px;
 }
 
-.footer-form-box {
-    display: flex;
-    margin-right: auto;
-    justify-content: space-between;
-    align-items: center;
+.form-label {}
+
+.form-input {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+
+    color: var(--white);
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: transparent;
+    border: 1px solid var(--white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.footer-form-text {
-    color: var(--white, #FFF);
-    /* Body Medium */
-    font-family: Roboto;
-    font-size: 16px;
+.form-input::placeholder {
+    color: var(--white);
+}
 
-    font-weight: 500;
-    line-height: 24px;
-
-    letter-spacing: 0.32px;
-    margin-bottom: 16px;
+.form-input:focus {
+    border-color: var(--iris);
 }
 
 .footer-form-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 165px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 8px 24px;
 
     font-family: "Roboto", sans-serif;
-    color: var(--white);
-    background-color: var(--iris);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
+    color: var(--white);
 
 
-    min-width: 165px;
-    height: 40px;
-    border: none;
     border-radius: 4px;
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--iris, #4D5AE5);
+
+    cursor: pointer;
+    border: none;
+
 }
 
 .footer-form-icon {
-    fill: var(--cloud);
+    fill: var(--white);
     margin-left: 16px;
-}
-
-.form-input {
-    width: 264px;
-    height: 40px;
 }
