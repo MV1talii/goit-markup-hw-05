@@ -685,7 +685,7 @@ img {
 
 /**
       |============================
-      | MODAL WINDIW
+      | MODAL WINDOW
       |============================
     */
 
@@ -908,6 +908,13 @@ img {
 .button {}
 
 .modal-form-btm {
+    display: block;
+    min-width: 169px;
+    font-family: "Roboto", sans-serif;
+    height: 56px;
+
+
+    /* old */
     margin-top: 24px;
     border-radius: 4px;
     padding: 16px 32px;
@@ -1044,6 +1051,8 @@ img {
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
 
+    cursor: pointer;
+    border: none;
 
 
 }
