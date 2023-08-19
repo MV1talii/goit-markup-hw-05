@@ -794,12 +794,13 @@ img {
 .modal-form-label {
     display: block;
     margin-bottom: 4px;
+    line-height: 1.17;
 
 
     color: var(--lightslate);
     font-family: Roboto;
     font-size: 12px;
-    line-height: 1.16;
+
     letter-spacing: 0.04em;
 }
 
@@ -811,21 +812,28 @@ img {
 .modal-form-input {
     width: 100%;
     padding: 8px 16px;
+    height: 40px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 
 }
 
+.modal-form-input:focus {
+    border-color: #4D5AE5;
+}
 
 
 .modal-form-icon {
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translateX(16px) translateY(-50%);
+    left: 16px;
+    transform: translateY(-50%);
     pointer-events: none;
-
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -901,6 +909,10 @@ img {
 
 .btn-accent {}
 
+.comment-label-form {
+    margin-bottom: 16px;
+}
+
 
 /* MODAL finish */
 
@@ -953,9 +965,7 @@ img {
     color: var(--white);
 }
 
-.form-input:focus {
-    border-color: var(--iris);
-}
+
 
 .footer-form-button {
     display: flex;
