@@ -863,8 +863,15 @@ img {
 
     font-family: Roboto;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-for-comment:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-for-comment::placeholder {
@@ -905,6 +912,8 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-accent {}
@@ -913,6 +922,9 @@ img {
     margin-bottom: 16px;
 }
 
+.checkbox-modal-form {
+    margin-bottom: 24px;
+}
 
 /* MODAL finish */
 
