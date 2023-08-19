@@ -761,6 +761,18 @@ img {
 }
 
 /* modal content */
+
+
+/* form box */
+.form-box {
+    margin-bottom: 8px;
+}
+
+/* form box finish*/
+
+
+
+
 .modal-caption {
     display: block;
     width: 360px;
@@ -792,6 +804,7 @@ img {
 }
 
 .modal-form-field {
+    position: relative;
     margin-bottom: 8px;
 }
 
@@ -804,7 +817,31 @@ img {
 
 }
 
-.modal-form-icon {}
+
+
+.modal-form-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateX(16px) translateY(-50%);
+    pointer-events: none;
+
+
+}
+
+
+
+
+
+
+
+.modal-form-input {
+    padding-left: 38px;
+}
+
+.modal-form-input:focus+.modal-form-icon {
+    fill: var(--iris);
+}
 
 .modal-for-comment {
     width: 100%;
