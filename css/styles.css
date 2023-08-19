@@ -720,6 +720,7 @@ img {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     opacity: 1;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px;
 }
 
 .modal-btn {
@@ -757,6 +758,111 @@ img {
 .modal-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* modal content */
+.modal-caption {
+    display: block;
+    width: 360px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+
+
+
+    color: var(--navyblue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.modal-form-label {
+    display: block;
+    margin-bottom: 4px;
+
+
+    color: var(--lightslate);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+}
+
+.modal-form-field {
+    margin-bottom: 8px;
+}
+
+.modal-form-input {
+    width: 100%;
+    padding: 8px 16px;
+
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+
+}
+
+.modal-form-icon {}
+
+.modal-for-comment {
+    width: 100%;
+    height: 120px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+    resize: none;
+
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+}
+
+.modal-for-comment::placeholder {
+    color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+
+}
+
+.modal-form-agreement {
+    color: var(--lightslate);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+}
+
+.modal-form-link {
+    color: var(--iris);
+}
+
+.checkbox {}
+
+.dal-form-desc {}
+
+.button {}
+
+.modal-form-btm {
+    margin-top: 24px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.btn-accent {}
+
 
 /* MODAL finish */
 
