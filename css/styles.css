@@ -962,11 +962,12 @@ img {
 
 .checkbox-modal-ikon {}
 
-.checkbox:checked.span {
+.checkbox:checked+.modal-form-agreement .checkbox-form-icon {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+
 
 .modal-form-btm {
     font-family: "Roboto", sans-serif;
